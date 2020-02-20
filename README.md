@@ -7,7 +7,10 @@
 -**Neurosky Mindwave**: Informacion del sensor cerebral y su uso
 -**Presupuestos y documentaciones**: todo el manejo economico y legal del proyecto
 
-### NO DEJAR COSAS EN EL MASTER USAR
+### NO DEJAR COSAS EN EL MASTER USAR BRANCH ADECUADO (DIVISON DEL REPO)
+# Integrantes del proyecto
+- CARRO,Nahuel Agustin
+- CARDINAL, Facundo Julian
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ4ODI1MTAsLTc0MTA4MjA3Nl19
+eyJoaXN0b3J5IjpbNjMwNDIwNzU3LC03NDEwODIwNzZdfQ==
 -->
