@@ -3,10 +3,6 @@
 
 ---
 
-<hr>
-<hr>
-<hr>
-<hr>
 <h1 id="ojo-de-van-gogh">Ojo de van gogh</h1>
 <p>El repo esta dividido en :</p>
 <ul>
