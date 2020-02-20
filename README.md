@@ -3,6 +3,8 @@
 
 ---
 
+<hr>
+<hr>
 <h1 id="ojo-de-van-gogh">Ojo de van gogh</h1>
 <p>El repo esta dividido en :</p>
 <ul>
@@ -27,7 +29,3 @@
 VITTORE, Tobias</li>
 </ul>
 
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTQwNDkwNTgsMTUxMTAxNDIwOF19
--->
