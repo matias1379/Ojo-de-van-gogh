@@ -15,11 +15,19 @@
 <h3 id="no-dejar-cosas-en-el-master-usar-branch-adecuado-divison-del-repo">NO DEJAR COSAS EN EL MASTER USAR BRANCH ADECUADO (DIVISON DEL REPO)</h3>
 <h1 id="integrantes-del-proyecto">Integrantes del proyecto</h1>
 <ul>
-<li>CARDINAL, Facundo Julian</li>
-<li>CARRO,Nahuel Agustin</li>
-<li>FONTE, Gonzalo Juan</li>
-<li>PIERRI, Matias Gabriel</li>
-<li>VILARDO, Theo</li>
-<li>VITTORE, Tobias</li>
+<li>N, ao Julia</li>
+<li> CARRO,Nahuel Agustin</li>
+<li>
+- FONTE, Gonzalo Juan</li>
+<li>
+- PIERRI, Matias Gabriel</li>
+<li>
+- VILARDO, Theo</li>
+<li>
+- VITTORE, Tobias</li>
 </ul>
 
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTUxMTAxNDIwOF19
+-->
