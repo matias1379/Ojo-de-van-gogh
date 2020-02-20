@@ -1,2 +1,6 @@
 # Ojo de van gogh
- Proyecto de Septimo Año
+### El repo esta dividido en :
+	
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTU0OTczNDYwMF19
+-->
