@@ -9,8 +9,14 @@
 
 ### NO DEJAR COSAS EN EL MASTER USAR BRANCH ADECUADO (DIVISON DEL REPO)
 # Integrantes del proyecto
-- CARRO,Nahuel Agustin
 - CARDINAL, Facundo Julian
+- CARRO,Nahuel Agustin
+- FONTE, Gonzalo Juan
+- PIERRI, Matias Gabriel
+- VILARDO, Theo
+- VITTORE, Tobias
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMwNDIwNzU3LC03NDEwODIwNzZdfQ==
+eyJoaXN0b3J5IjpbOTEyNDE1MTc1LC03NDEwODIwNzZdfQ==
 -->
