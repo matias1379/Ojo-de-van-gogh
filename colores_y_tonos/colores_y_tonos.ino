@@ -6,32 +6,46 @@ void setup() {
 }
 
 void loop() {
- if(Serial.available()>0){
-    tono=Serial.read();
-    if(tono=='1'){
-      tone(buzzer,440);
-      delay(1000);
-      noTone(buzzer);
-      delay(100);
+if(Serial.available()){ //si llega informacion por Serial
+   tono=Serial.read();    //leo y guardo en tono
+
+   //Si es 1 hago tal ruido
+     if(tono=='1'){
+      //le agregue este for para que se repita 4 veces
+      for(c = 0, c <= 4, c++) {
+        tone(buzzer,440);
+        delay(1000);
+        noTone(buzzer);
+        delay(100);
      
-      Serial.println("Está sonando el color: verde");
+        Serial.println("Está sonando el color: verde");
+      }
+      c = 0;  
     }
+    //Si es 2 hago tal ruido
     if(tono=='2'){
-      tone(buzzer,880);
-      delay(1000);
-      noTone(buzzer);
-      delay(1000);
-      
+    
+      for(c = 0, c <= 4, c++){
+        tone(buzzer,880);
+        delay(1000);
+        noTone(buzzer);
+        delay(1000);
+        Serial.println("Está sonando el color: rojo");
+      }
+     c = 0;
      }
-  
+  //Si es 3 hago tal ruido
      if(tono=='3'){
-      tone(buzzer,2000);
-      delay(1000);
-      noTone(buzzer);
-      delay(2000);
-      
+      for(c = 0, c <= 4, c++){
+        tone(buzzer,2000);
+        delay(1000);
+        noTone(buzzer);
+        delay(2000);
+        Serial.println("Está sonando el color: azul");
+      }
+      c = 0;
      }   
+     
      Serial.println("Escribe el color: verde, rojo, azul");
-  
   }
 }
