@@ -20,7 +20,7 @@ void loop() {
    //Si es 1 hago tal ruido
      if(tono=='1'){
       //le agregue este for para que se repita 4 veces
-      for(c = 0, c <= 4, c++) {
+      for(c = 0; c <= 4; c++) {
         tone(buzzer,440);
         delay(1000);
         noTone(buzzer);
@@ -33,7 +33,7 @@ void loop() {
     //Si es 2 hago tal ruido
     if(tono=='2'){
     
-      for(c = 0, c <= 4, c++){
+      for(c = 0; c <= 4; c++){
         tone(buzzer,880);
         delay(1000);
         noTone(buzzer);
@@ -44,7 +44,8 @@ void loop() {
      }
   //Si es 3 hago tal ruido
      if(tono=='3'){
-      for(c = 0, c <= 4, c++){
+      
+      for(c = 0; c <= 4; c++){
         tone(buzzer,2000);
         delay(1000);
         noTone(buzzer);
