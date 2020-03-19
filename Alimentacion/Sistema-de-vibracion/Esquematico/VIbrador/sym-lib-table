@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name Modulos)(type Legacy)(uri ${KIPRJMOD}/Modulos.lib)(options "")(descr ""))
-)
