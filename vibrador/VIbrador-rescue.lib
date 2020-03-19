@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# ArduinoNANO-Modulos
+# ArduinoNANO-Modulos-VIbrador-rescue
 #
-DEF ArduinoNANO-Modulos U 0 40 Y Y 1 F N
+DEF ArduinoNANO-Modulos-VIbrador-rescue U 0 40 Y Y 1 F N
 F0 "U" -200 -150 50 H V C CNN
-F1 "ArduinoNANO-Modulos" 250 -350 50 H V C CNN
+F1 "ArduinoNANO-Modulos-VIbrador-rescue" 250 -350 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -43,11 +43,11 @@ X VIN ~ 1000 -650 100 D 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Buzzer-Modulos
+# Buzzer-Modulos-VIbrador-rescue
 #
-DEF Buzzer-Modulos U 0 40 Y Y 1 F N
+DEF Buzzer-Modulos-VIbrador-rescue U 0 40 Y Y 1 F N
 F0 "U" -100 -150 50 H V C CNN
-F1 "Buzzer-Modulos" 50 0 50 H V C CNN
+F1 "Buzzer-Modulos-VIbrador-rescue" 50 0 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -57,11 +57,11 @@ X GND 2 250 -150 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# HC-05-Modulos
+# HC-05-Modulos-VIbrador-rescue
 #
-DEF HC-05-Modulos U 0 40 Y Y 1 F N
+DEF HC-05-Modulos-VIbrador-rescue U 0 40 Y Y 1 F N
 F0 "U" -300 -200 50 H V C CNN
-F1 "HC-05-Modulos" -200 -50 50 H V C CNN
+F1 "HC-05-Modulos-VIbrador-rescue" -200 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -73,11 +73,11 @@ X RX 4 350 -250 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Pila3,7V-Modulos
+# Pila3,7V-Modulos-VIbrador-rescue
 #
-DEF Pila3,7V-Modulos U 0 40 Y Y 1 F N
+DEF Pila3,7V-Modulos-VIbrador-rescue U 0 40 Y Y 1 F N
 F0 "U" 200 0 50 H V C CNN
-F1 "Pila3,7V-Modulos" 0 0 50 H V C CNN
+F1 "Pila3,7V-Modulos-VIbrador-rescue" 0 0 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

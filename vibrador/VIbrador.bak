@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:VIbrador-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L VIbrador-rescue:HC-05-Modulos-VIbrador-rescue U?
+L VIbrador-rescue:HC-05-Modulos U?
 U 1 1 5E6EC1C3
 P 5000 2200
 F 0 "U?" V 5074 2338 50  0000 L CNN
@@ -26,7 +25,7 @@ F 3 "" H 5000 2200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VIbrador-rescue:Pila3,7V-Modulos-VIbrador-rescue U?
+L VIbrador-rescue:Pila3,7V-Modulos U?
 U 1 1 5E6ECDF3
 P 2900 1550
 F 0 "U?" H 2950 1765 50  0000 C CNN
@@ -61,7 +60,7 @@ TX
 Text GLabel 4850 2900 3    50   Input ~ 0
 RX
 $Comp
-L VIbrador-rescue:Buzzer-Modulos-VIbrador-rescue U?
+L VIbrador-rescue:Buzzer-Modulos U?
 U 1 1 5E6F1D29
 P 4850 3500
 F 0 "U?" H 4900 3350 50  0000 C CNN
@@ -90,7 +89,7 @@ GND
 Text GLabel 3700 2400 2    50   Input ~ 0
 TX
 $Comp
-L VIbrador-rescue:ArduinoNANO-Modulos-VIbrador-rescue U?
+L VIbrador-rescue:ArduinoNANO-Modulos U?
 U 1 1 5E6EAAF3
 P 3100 2700
 F 0 "U?" V 2475 2375 50  0000 C CNN
