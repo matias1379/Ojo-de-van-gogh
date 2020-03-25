@@ -21,7 +21,7 @@ void setup() {
 
  Serial.begin(9600);        //Inicializa puerto serie 
  BTMaster.begin(9600);    //Inicializa puerto serie de BT
- Serial.println("Escribe el color: rojo, verde, azul");
+ Serial.println("Parpadee");
 }
 
 void loop() {
@@ -29,7 +29,6 @@ void loop() {
   if(Serial.available()>0){ //Si en el serial hay un dato
     if(Serial.read()== '1'){  //si es 1 lo que leo del serial
        SerializarJson().toCharArray(charArray, str_len);    //hago el string json en un char array
-       Serial.println(SerializarJson());
        Serial.println(charArray);
        BTMaster.write(charArray); //escribo en el bt el char array
        

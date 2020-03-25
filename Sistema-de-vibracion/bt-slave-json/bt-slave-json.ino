@@ -4,7 +4,7 @@
 SoftwareSerial BTSlave (10, 11);  //pin RX=10, pin TX=11
 
 String str = "";                  //variable que hace el string del json
-const int buzzer=9;               //pin del vibrador o buzzer
+const int buzzer=8;               //pin del vibrador o buzzer
 
 // Funcion de deserializar Json
 String DeserializarJson(String json)  //Devuelve un string y pide el string json
@@ -30,23 +30,20 @@ void loop() {
   while(BTSlave.available()>0){ //mientra llega informacion por BT 
    char caracter=BTSlave.read();    //leo y guardo en caracer
      if (caracter != '}'){    //si caracter es distinto a la llave
-      Serial.println("junto");
       str.concat(caracter); //guardo en str cada caracter y formo string
      }
      else{
-      Serial.println("termine");
       str.concat('}');//agrego la llave 
       String color = DeserializarJson(str); //deserializo str y guardo en color
-      Serial.println(color);
-           
+                 
       //Si es rojo hago tal ruido
        if(color=="rojo"){
         tone(buzzer,440);
         delay(1000);
         noTone(buzzer);
         delay(100);
-        
-        Serial.println("Está sonando el color: verde");
+        Serial.println("Está sonando el color: rojo");
+       
       }
       //Si es verde hago tal ruido
       if(color=="verde"){
@@ -54,7 +51,8 @@ void loop() {
         delay(1000);
         noTone(buzzer);
         delay(1000);
-        Serial.println("Está sonando el color: rojo");
+        Serial.println("Está sonando el color: verde");
+        
        }
       //Si es azul hago tal ruido
        if(color=="azul"){
